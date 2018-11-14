@@ -40,7 +40,7 @@ class Detail extends React.Component {
                 {
                     this.state.detailInfo?
                         <div className='d_header_main'>
-                            <div className='d_header22' style={{ 'background':'url({detailInfo.photo})' }}></div>
+                            <div className='d_header22' style={{  backgroundImage: 'url(' + detailInfo.photo + ')',}}></div>
                             <div className="d_header">
                                 <h3>
                                     {detailInfo.title}

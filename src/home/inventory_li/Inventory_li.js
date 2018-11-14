@@ -58,7 +58,7 @@ class Inventory_li extends React.Component {
                             {
                                 this.props.data.seriesCount&&this.props.data.seriesCount>5?
                                     <li>
-                                        <a onClick={this._click.bind(this,this.props.data.id,this.props.data.state)} className='last-one'>
+                                        <a href= {'./colvideolist?colId='+this.props.data.id } className='last-one'>
                                             <div>
                                                 <p>
                                                     {
