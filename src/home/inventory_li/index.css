@@ -1,0 +1,114 @@
+.inventory_main{
+    width: 100%;
+    background:#fff;
+    clear: both;
+    margin-top:0.12rem;
+}
+.inventory_main ul{
+    line-height: 1;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+.inventory_main li{
+    display:inline-block;
+    width: 1.02rem;
+    margin-left: 0.12rem;
+    vertical-align:top;
+}
+.inventory_main li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.inventory_main li img{
+    display:block;
+    width: 100%;
+    height:1.42rem;
+    border-radius: 3px;
+}
+.inventory_main li:nth-last-child(1){
+    margin-right: 0.12rem;
+}
+.inventory_main li:nth-last-child(1) .last-one{
+    width: 100%;
+    height: 1.42rem;
+    background:#F0F0F0;
+    border-radius: 3px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.inventory_main li:nth-last-child(1) .last-one p{
+    padding: 5px 0;
+    font-size: 0.13rem;
+    color: #AFAFAF;
+}
+.inventory_main li:nth-last-child(1) .last-one p:nth-child(1){
+    border-bottom: 0.5px solid #AFAFAF;
+}
+
+.inventory_main li p.tit_vidoe{
+    font-size: 0.14rem;
+    color: #333;
+    padding-top: 0.13rem;
+    padding-bottom: 0.14rem;
+    /* display: -webkit-box; */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.inventory_tit{
+    padding-top: 0.1rem;
+    padding-left: 0.12rem;
+    margin-bottom: 0.12rem;
+    position: relative;
+}
+.inventory_tit .tit{
+    font-size: 0.18rem;
+    color: #333;
+    line-height: 1;
+    margin-bottom:0.075rem;
+}
+.inventory_tit .tit img{
+    width: 0.22rem;
+    height: 0.22rem;
+    vertical-align: middle;
+    margin-right: 0.08rem;
+}
+.inventory_tit .tit_p{
+    font-size: 0.12rem;
+    color: #999;
+    line-height: 1;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn_add_c{
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+    padding: 0.04rem 0.13rem;
+    border-radius: 3px;
+    right: 0.12rem;
+    top: 0.12rem;
+    background: #5EAEFF;
+}
+.btn_add_c_air{
+    position: absolute;
+    font-size: 13px;
+    color: #999;
+    padding: 0.04rem 0.13rem;
+    border-radius: 3px;
+    right: 0.12rem;
+    top: 0.12rem;
+    background: #E1E1E1;
+}

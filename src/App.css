@@ -1,5 +1,113 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+/*css reset code */
+/* @import url("./resource/font/iconfont.css"); */
+.clr {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
 }
+.testColor {color:#abcdef; background-color:blue;}
+
+/****  文字大小初始化,使1em=10px *****/
+
+body {
+	/*-webkit-tap-highlight-color: rgba(115, 115, 115, .2);*/
+	-webkit-touch-callout:none;
+	-webkit-tap-highlight-color: rgba(115, 115, 115, 0);
+	font-family: "Helvetica Neue", Helveti
+	ca, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	background: #f4f5f6;
+}
+
+
+/* for IE/Win */
+
+html {
+	font-size: 625%;
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 940%!important;
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 1090%!important;
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 1250%!important;
+	}
+}
+
+
+
+/* for everything else */
+
+
+/*字体边框等初始化*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: .16rem;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+	width: 100%;
+}
+
+address,caption,cite,code,dfn,th,var {
+	font-weight: normal;
+	font-style: normal;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ks_clear:after,
+.clear:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.ks_clear,
+.clear {
+	*zoom: 1;
+}
+

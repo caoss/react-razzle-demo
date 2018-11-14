@@ -1,0 +1,38 @@
+.col_header{
+    padding:10px 15px;
+    background: #fff;
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+}
+.col_header img{
+    width: 80px;
+    height: 80px;
+}
+.col_header_box2{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.col_header_box2 p{
+    margin-top: 10px;
+    color: #666;
+    font-size: 12px;
+}
+
+.video_main{
+    display:block;
+    background: #fff;
+    margin-top: 10px;
+    padding:10px 15px;
+}
+.video_li{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+.video_li img{
+    width: 68px;
+    height: 90px;
+    border-radius: 5px;
+}
