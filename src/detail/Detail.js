@@ -18,6 +18,7 @@ class Detail extends React.Component {
         Http.get(Api.DETAIL_INFO+'/'+videoId).then(result=>{
             console.log(result);
             if(result&&result.item){
+                document.title = result.item.title;
                 this.setState({
                     detailInfo:result.item
                 })

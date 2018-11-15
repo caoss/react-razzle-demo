@@ -13,9 +13,12 @@ class ColvideoList extends React.Component {
         }   
     }
     componentDidMount(){
-       let colId = this.props.location.search;
+        let colId = this.props.location.search;
         colId = colId.substr(7);
         Http.get(Api.COL_VIDEOS_DETAIL+'/'+colId+'?pageNo='+1+'&pageSize=100').then(result=>{
+            if( result.title){
+                document.title = result.title;
+            }
             this.setState({
                 data:result
             })

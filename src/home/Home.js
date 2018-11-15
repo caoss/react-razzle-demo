@@ -16,6 +16,7 @@ class Home extends React.Component {
         }   
     }
     componentDidMount(){
+        document.title = 'Neets首页_你的私人追剧管家';
         this.getInventoryData();
         const wrapper = this.refs.wrapper;
         const loadMoreDataFn = this.loadMoreDataFn;
